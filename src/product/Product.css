@@ -1,0 +1,37 @@
+.product img{
+    height: 286px;
+    width: 286px;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    margin: 7px;
+    border-radius: 5px;
+
+}
+.product{
+    width: 300px;
+    height: 508px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.product-name{
+    margin-block:12px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.0015em;
+
+color: #0E161A;
+
+}
+.product-info{
+    margin-left: 14px;
+    
+}
+.product-info h4{
+    margin-bottom: 43px;
+}
+.product-info p{
+     margin-bottom: 10px;
+}

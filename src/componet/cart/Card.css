@@ -1,6 +1,14 @@
 .cart{
     background-color: orange;
-    padding: 15px;
+    padding: 25px;
     opacity: 2;
     margin-top: 45px;
+    position: sticky;
+    top:0px;
+    border: 1px solid rgb(181, 174, 174);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cart h3{
+    margin-bottom:40px ;
 }

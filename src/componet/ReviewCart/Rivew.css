@@ -21,32 +21,36 @@
     height: 91px;
     width: 91px;
 }
-.item-container p{
+
+.item-container p {
     margin: 0 15px;
-    
+
 }
-.item-container{
-    flex-grow:1;   
+
+.item-container {
+    flex-grow: 1;
 }
-.button{
+
+.button {
     height: 51px;
     width: 51px;
     border-radius: 50%;
     background-color: #EB5757;
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
-  
-    
+
+
 
 }
-.orang{
+
+.orang {
     color: #FF9900;
 }
-.button-icon{
-   
-   font-size: 27px;
-   color: black;
-    
+
+.button-icon {
+    font-size: 27px;
+    color: black;
+
 }

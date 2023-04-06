@@ -12,3 +12,15 @@
 .cart h3{
     margin-bottom:40px ;
 }
+.btn-cart{
+    display: flex;
+    width: 95%;
+    margin:5px auto ;
+    justify-content: space-between;
+    background: #FF3030;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    font-size: 21px;
+    align-items: center;
+}

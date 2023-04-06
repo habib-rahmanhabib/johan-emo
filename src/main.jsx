@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Order from './componet/Order/Order'
 import cartProductLoder from './Loder/ProductLoderCart'
+import CheckOut from './componet/Checkout/CheckOut'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,8 +25,12 @@ const router = createBrowserRouter([
       },
       {
         path: "order",
-        element: <Order></Order>, 
+        element: <Order></Order>,
         loader: cartProductLoder
+      },
+      {
+        path: "checkout",
+        element: <CheckOut></CheckOut>
       },
       {
         path: 'review',

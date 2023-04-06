@@ -1,0 +1,52 @@
+.rivew-item {
+    width: 571px;
+    border: 1px solid gray;
+    height: 107px;
+    margin-bottom: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.item-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+
+.rivew-item img {
+    height: 91px;
+    width: 91px;
+}
+.item-container p{
+    margin: 0 15px;
+    
+}
+.item-container{
+    flex-grow:1;   
+}
+.button{
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    background-color: #EB5757;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+
+}
+.orang{
+    color: #FF9900;
+}
+.button-icon{
+   
+   font-size: 27px;
+   color: black;
+    
+}
